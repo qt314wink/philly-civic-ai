@@ -1,0 +1,38 @@
+{
+  "name": "philly-civic-ai-agrarian-futures",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=10.9.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "lint": "eslint . --max-warnings=0",
+    "validate": "npm run lint && npm run build",
+    "visual:audit": "node scripts/visual-audit.mjs",
+    "termux:validate": "bash scripts/termux-visual-validate.sh"
+  },
+  "dependencies": {
+    "lucide-react": "1.27.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.2",
+    "@tailwindcss/typography": "0.5.19",
+    "@vitejs/plugin-react": "6.0.1",
+    "autoprefixer": "10.4.21",
+    "eslint": "9.39.2",
+    "eslint-plugin-react-hooks": "7.0.1",
+    "eslint-plugin-react-refresh": "0.4.24",
+    "globals": "16.5.0",
+    "playwright-core": "1.57.0",
+    "postcss": "8.5.6",
+    "tailwindcss": "3.4.19",
+    "vite": "8.1.5"
+  }
+}
