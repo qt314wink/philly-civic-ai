@@ -1,0 +1,7 @@
+node_modules/
+dist/
+visual-artifacts/
+*.log
+.env
+.env.*
+!.env.example
